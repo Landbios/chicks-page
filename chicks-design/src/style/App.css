@@ -1,0 +1,126 @@
+.Main_Box > h1 {
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    font-size: 40px;
+}
+
+input[type="text"], textarea{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #fff;
+    font-size: 15px;
+    padding-left: 1rem;
+}
+
+.Main_Box{
+    width: 75%;
+    
+    margin: auto;
+    margin-top: 6rem;
+
+    & .SelectorsCont {
+        display: grid;
+
+        grid-template-columns: 260px 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+
+
+        & .SelectosWidth{
+            display: flex;
+            width: 100%;
+        }
+
+        & .Selectors1{
+            display: grid;
+            background-color: #5c5e8567;
+           
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+           
+
+            & .GSelectP{
+                margin-right: 5rem;
+                margin-left: 1rem;
+                color: #fff;
+            }
+        }
+        & .Selectors2{
+       
+            background-color: #5c5e8567;
+           
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+
+            & .searchbox{
+                display: flex;
+                width: 50%;
+
+                
+            }
+           
+            & .PriceCont{
+                display: flex;
+                width: auto;
+                align-items: center;
+                border-right: 1px solid #4c6085;
+                padding-right: 1rem;
+                
+                & .bottomAndTop2{
+                    margin-left: 15px;
+                    margin-right: 55px;
+
+                    & .toptext{
+                        size: 10px;
+                        color: #a5a7b2;
+                        line-height: 0px;
+
+                    }
+                    & .bottomtext{
+                        color: #fff;
+                        line-height: 10px;
+
+                    }
+                }   
+
+            }
+            & .ItemCont{
+                display: flex;
+                width: auto;
+                align-items: center;
+                padding-left: 15px;
+
+                & .bottomAndTop3{
+                    margin-left: 25px;
+                    margin-right: 68px;
+
+                    & .toptext{
+                        size: 10px;
+                        color: #a5a7b2;
+                        line-height: 0px;
+
+                    }
+                    & .bottomtext{
+                        color: #fff;
+                        line-height: 10px;
+
+                    }
+                }   
+            }
+            
+        }
+
+    }
+}

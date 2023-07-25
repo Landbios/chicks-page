@@ -1,0 +1,56 @@
+.headerCont {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #303141;
+    color: #fff;
+    border-bottom: 1px solid #4c6085;
+
+    & .HeaderSubCont1 {
+
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        align-items: center;
+        width: 65%;
+
+        & .Col{
+            display: grid;
+            margin-top: -10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            border-right: 2px solid #fff;
+        
+        }
+        & .ColSub1 {
+            display: grid;
+        }
+    
+
+    }
+
+    & .HeaderSubcont2 {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        align-items: center;
+
+        & .sign_button{
+            background-color: #39e29d;
+            color: #303141;
+            border-radius: 4px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: #303141;
+        }
+
+    }
+
+
+  
+}
+

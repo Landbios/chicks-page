@@ -1,0 +1,30 @@
+:root {
+
+  background:linear-gradient(0deg, rgba(49, 49, 59, 0.747), rgba(48, 43, 58, 0.795)), url(https://www.xtrafondos.com/wallpapers/animal-crossing-new-horizons-6457.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+#root {
+  
+  width: 100%;
+ 
+
+  text-align: center;
+}
+
+.root{
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+
