@@ -129,6 +129,7 @@ input[type="text"], textarea{
         background-color: #303141;
         border:  1px solid #4c5168;
         padding: 2rem;
+        border-radius: 5px;
 
 
         & .Cardlist_top{
@@ -477,6 +478,12 @@ input[type="text"], textarea{
         grid-column-gap: 20px;
         grid-row-gap: 20px;
     }
+    .CardList{
+        margin-top: 2rem;
+        background-color: #303141;
+        border:  1px solid #4c5168;
+        padding: 3rem !important;
+        border-radius: 5px;}
 
     .SelectorsCont{
         display: block !important;
