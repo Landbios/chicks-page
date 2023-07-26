@@ -66,7 +66,7 @@ input[type="text"], textarea{
 
             & .searchbox{
                 display: flex;
-                width: 50%;
+                width: 60%;
 
                 
             }
@@ -468,4 +468,33 @@ input[type="text"], textarea{
     color:#a5a7b2 ;
     text-align: center;
     margin-top: 4rem;
+}
+@media (max-width: 900px)  {
+    .Cards_cont {
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .SelectorsCont{
+        display: block !important;
+    } 
+    .Brands {
+        width: 65%;
+        text-align: left;
+        margin: auto;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .Selectors2 {
+        
+        display: none !important;
+    }
+    .Footer_Columns {
+        padding-top: 2rem;
+        display: block;
+    }    
 }
