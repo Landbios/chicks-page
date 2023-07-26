@@ -1,6 +1,8 @@
 
 import chickslogo from '../assets/chicks-logo-large.svg'
 import '../style/header.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faChevronDown, faCartShopping,faUser} from '@fortawesome/free-solid-svg-icons'
 
 
 const Header = () => {
@@ -11,33 +13,33 @@ const Header = () => {
                 <img src={chickslogo} alt="" />
             </div>
             <div className='ColSub1'>
-                <a>Currency</a>
+                <a>Currency <FontAwesomeIcon icon={faChevronDown} style={{color: "#ffffff",}} /></a>
             </div>
             <div className='ColSub1'>
-                <a>Items</a>
+                <a>Items <FontAwesomeIcon icon={faChevronDown} style={{color: "#ffffff",}} /></a>
             </div>
             <div className='ColSub1'>
-                <a>Account</a>
+                <a>Account <FontAwesomeIcon icon={faChevronDown} style={{color: "#ffffff",}} /></a>
             </div>
             <div className='ColSub1'>
-                <a>Services</a>
+                <a>Services <FontAwesomeIcon icon={faChevronDown} style={{color: "#ffffff",}} /></a>
             </div>
             <div className='ColSub1'>
-                <a>Swap</a>
+                <a>Swap <FontAwesomeIcon icon={faChevronDown} style={{color: "#ffffff",}} /></a>
             </div>
             <div className='ColSub1'>
-                <a>Sell</a>
+                <a>Sell <FontAwesomeIcon icon={faChevronDown} style={{color: "#ffffff",}} /></a>
             </div>
         </div>
         <div className='HeaderSubcont2'>
             <div className='="ColSub2'>
-                <a>USD</a>
+                <a>USD <FontAwesomeIcon icon={faChevronDown} style={{color: "#ffffff",}} /></a>
             </div>
             <div className='="ColSub2'>
-                <a>Cart(5)</a>
+                <a><FontAwesomeIcon icon={faCartShopping} style={{color: "#ffffff",}} /> CART(5)</a>
             </div>
             <div className='="ColSub2'>
-                <button className='sign_button'>SIGN IN</button>
+                <button className='sign_button'> <FontAwesomeIcon icon={faUser} style={{color: "#303141",}} />  SIGN IN</button>
             </div>
         </div>
 

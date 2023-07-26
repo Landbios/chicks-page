@@ -3,11 +3,15 @@ import Header from './components/Header'
 import './style/App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLeaf, faCaretDown,faMagnifyingGlass,faSackDollar,faFeatherPointed} from '@fortawesome/free-solid-svg-icons'
-
+import CardList from './components/CardList'
+import Footer from './components/Footer'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [Cards, setCards] = useState([]);
+  
+  
+
 
   return (
     <>
@@ -51,7 +55,14 @@ function App() {
             </div>
          
         </div>
+
+        <CardList/>
+        
+        
       </div>
+      <Footer/>
+
+
      
     </>
   )
